@@ -1,0 +1,25 @@
+{
+  "name": "aiport-pile",
+  "version": "0.0.1",
+  "description": "aiport data modules",
+  "main": "pile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surprisetalk/aiport-pile.git"
+  },
+  "keywords": [
+    "aiport"
+  ],
+  "author": "taylor sarrafian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surprisetalk/aiport-pile/issues"
+  },
+  "homepage": "https://github.com/surprisetalk/aiport-pile#readme",
+  "dependencies": {
+    "mongoose": "^4.4.19"
+  }
+}
