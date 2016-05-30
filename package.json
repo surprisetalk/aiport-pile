@@ -1,6 +1,6 @@
 {
   "name": "aiport-pile",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "aiport data modules",
   "main": "pile.js",
   "scripts": {
