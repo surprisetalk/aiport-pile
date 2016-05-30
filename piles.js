@@ -2,6 +2,8 @@
 var mongoose = require('mongoose');
 var package = require('aiport-package');
 
+mongoose.Promise = global.Promise;
+
 // TODO: create require('aiport-dev').pile that creates object
 // TODO: this function should return our schema object with stuff added 
 
