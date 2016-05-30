@@ -1,5 +1,6 @@
 
 var mongoose = require('mongoose');
+var package = require('aiport-package');
 
 // TODO: create require('aiport-dev').pile that creates object
 // TODO: this function should return our schema object with stuff added 
@@ -7,10 +8,8 @@ var mongoose = require('mongoose');
 // TODO: error handling 
 var piler = module_name =>
      new mongoose.model( 
-	 module_name.replace('aiport-pile-',''), 
-	 require( module_name ) 
+	 module_name, 
+	 require( "aiport-pile-" + module_name ) 
      );
 
-module.exports = fs.readdirSync('node_modules')
-	.filter( module_name => module_name.startsWith('aiport-pile-') )
-	.map( piler );
+module.exports = package.installed().pile.map( piler );
