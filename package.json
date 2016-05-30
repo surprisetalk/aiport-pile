@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/surprisetalk/aiport-pile#readme",
   "dependencies": {
+    "aiport-package": "latest",
     "mongoose": "^4.4.19"
   }
 }
